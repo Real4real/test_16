@@ -1,0 +1,98 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-element {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+}
+.headel {
+	flex-direction: column;
+    flex-wrap: wrap;
+}
+.headel2 {
+	flex-direction: column;
+    flex-wrap: wrap;
+    display: none;
+}
+.conulinks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logofoot {
+	display: flex;
+}
+.logoClass {
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.intro {
+	justify-content: space-between;
+}
+.video {
+	flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.profolio {
+	justify-content: center;
+}
+.block1 {
+	width: 100%;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.block2 {
+	width: 100%;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.block3 {
+	width: 100%;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.b2kv3 {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.pricing {
+	align-items: center;
+	flex-direction: column;
+}
+.keepInTouch {
+	justify-content: space-evenly;
+}
+.contacts {
+	justify-content: space-evenly;
+}
+.contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.socials {
+	justify-content: center;
+}
+.footer {
+	justify-content: space-evenly;
+}
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 561px) {
+	.video {
+	flex-direction: row;
+	}
+}
